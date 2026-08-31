@@ -154,4 +154,28 @@ clas program
         Console.WriteLine("\nApós alterações:");
         Console.WriteLine(filme1);
         Console.WriteLine(filme2)
+
+        Filme filme3 = new Filme("", "", -10);
+        Console.WriteLine("\nTestando dados validos:");
+        Console.WriteLine(filme3);
+
+        Console.WriteLine("\n=== TESTANDO CLASSE RESENHA ===");
+        Resenha resenha1 = new Resenha("Dom Casmurro", "Livro", 9.5);
+        Resenha resenha2 = new Resenha("chucky", "Filme", 9.8);
+
+        Console.WriteLine(resenha1);
+        Console.WriteLine(resenha2);
+
+        resenha1.Nota = 10;
+        resenha2.tituloObra = "Chuky" (2017);
+
+        Console.WriteLine("\nApós alterações:");
+        Console.WriteLine(resenha1);
+        Console.WriteLine(resenha2);
+
+        Resenha resenha3 = new Resenha("", "Série", 15);
+        Console.WriteLine("\nTestando dados inválidos:");
+        Console.WriteLine(resenha3);
+
+        Console.WriteLine("\n=== FIM DOS TESTES ===");
     }
