@@ -149,7 +149,7 @@ class Filme
         Console.WriteLine(livro1);
         Console.WriteLine(livro2);
  
-        // Alterando valores usando propriedades
+        
         livro1.NumeroPaginas = 260;
         livro2.Autor = "J. R. R. Tolkien";
  
@@ -157,7 +157,7 @@ class Filme
         Console.WriteLine(livro1);
         Console.WriteLine(livro2);
  
-        // Testando validação (valor inválido)
+        
         Livro livro3 = new Livro("", "", -50);
         Console.WriteLine("\nTestando dados inválidos:");
         Console.WriteLine(livro3);
@@ -169,7 +169,7 @@ class Filme
         Console.WriteLine(filme1);
         Console.WriteLine(filme2);
  
-        // Alterando valores usando propriedades
+        
         filme1.DuracaoMinutos = 172;
         filme2.Genero = "Sobrenatural";
  
@@ -177,7 +177,7 @@ class Filme
         Console.WriteLine(filme1);
         Console.WriteLine(filme2);
  
-        // Testando validação (valor inválido)
+        
         Filme filme3 = new Filme("", "", -10);
         Console.WriteLine("\nTestando dados inválidos:");
         Console.WriteLine(filme3);
@@ -189,7 +189,7 @@ class Filme
         Console.WriteLine(resenha1);
         Console.WriteLine(resenha2);
  
-        // Alterando valores usando propriedades
+        
         resenha1.Nota = 10;
         resenha2.TituloObra = "Chucky (2019)";
  
@@ -197,7 +197,7 @@ class Filme
         Console.WriteLine(resenha1);
         Console.WriteLine(resenha2);
  
-        // Testando validação (valor inválido)
+    
         Resenha resenha3 = new Resenha("", "Série", 15);
         Console.WriteLine("\nTestando dados inválidos:");
         Console.WriteLine(resenha3);
